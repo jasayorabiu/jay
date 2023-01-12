@@ -1,0 +1,38 @@
+    body{
+    display: flex;
+    width:100vw;
+    height:100vh;
+    justify-content:center;
+    align-items:center;
+}
+.containeer{
+    padding-left: 20px;
+    background-color: white;
+    width: 200px;
+}
+h1{
+    padding-left: 10px;
+    color: red;
+}
+h2{
+    color: darkgreen;
+    padding-left: 10px;
+}
+.card{
+    padding-left: 10px;
+    padding-left: 10px;
+    display: flex;
+    border-style: 12px;
+    border-radius: 8px;
+}
+button{
+    padding-left: 10px;
+    color: whitesmoke;
+    border-radius: 8px;
+    background-color: darkcyan;
+    width: 190px;
+    height: 50px;
+}
+p{
+    padding-left: 10px;
+}
