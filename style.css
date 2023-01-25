@@ -1,32 +1,78 @@
-    body{
+   *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+   }
+   body{
     display: flex;
     width:100vw;
     height:100vh;
     justify-content:center;
     align-items:center;
+    box-sizing:border-box;
+}
+
+@media  (max-width: 480px) {
+
+    body{
+        background-color:lightpink;
+    }
+
+    .card .containeer{
+        width: 100%;
+
+    }
+    
 }
 .containeer{
-    padding-left: 20px;
+    
     background-color: white;
     width: 200px;
+   
 }
 h1{
-    padding-left: 10px;
-    color: red;
+    
+    
 }
 h2{
     color: darkgreen;
-    padding-left: 10px;
 }
 .card{
-    padding-left: 10px;
-    padding-left: 10px;
     display: flex;
     border-style: 12px;
     border-radius: 8px;
+    width: 50%;
+    background-color: red;
+    
+}
+
+.card img{
+    width: 50%;
+}
+
+.card .containeer{
+    width: 50%;
+    padding: 10px;
+
+
+}
+@media (max-width:580px) {
+    .card{
+        flex-direction: column;
+        width: 80%;
+        background-color: blue;
+    }
+    .card img{
+        width: 100%;
+    }
+    .card .containeer{
+        width: 100%;
+    
+    
+    }
 }
 button{
-    padding-left: 10px;
+    
     color: whitesmoke;
     border-radius: 8px;
     background-color: darkcyan;
@@ -34,5 +80,5 @@ button{
     height: 50px;
 }
 p{
-    padding-left: 10px;
+    
 }
